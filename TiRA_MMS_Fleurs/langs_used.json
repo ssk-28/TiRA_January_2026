@@ -1,0 +1,29 @@
+{
+  "data_root": "../ML_SUPERB/fleurs",
+  "langs": [
+    "afr",
+    "amh",
+    "ara",
+    "asm",
+    "ast",
+    "aze",
+    "bel",
+    "ben",
+    "bos",
+    "bul",
+    "cat",
+    "ceb",
+    "ces",
+    "ckb",
+    "cym",
+    "dan",
+    "deu",
+    "ell",
+    "eng",
+    "est"
+  ],
+  "num_clients": 20,
+  "ft_frac": 0.3,
+  "route_tail_frac": 0.2,
+  "route_cos_thr": 0.0
+}

@@ -1,0 +1,332 @@
+{
+  "dataset": "bookbot/common_voice_23_0_es",
+  "streaming": false,
+  "splits": {
+    "train": {
+      "rows_scanned": 353701,
+      "speaker_level": {
+        "total_speakers": 0
+      },
+      "top_accents_by_utterance": [
+        [
+          "México",
+          132553
+        ],
+        [
+          "España: Sur peninsular (Andalucia, Extremadura, Murcia)",
+          40423
+        ],
+        [
+          "España: Norte peninsular (Asturias, Castilla y León, Cantabria, País Vasco, Navarra, Aragón, La Rioja, Guadalajara, Cuenca)",
+          31607
+        ],
+        [
+          "Andino-Pacífico: Colombia, Perú, Ecuador, oeste de Bolivia y Venezuela andina",
+          13629
+        ],
+        [
+          "Rioplatense: Argentina, Uruguay, este de Bolivia, Paraguay",
+          11042
+        ],
+        [
+          "España: Centro-Sur peninsular (Madrid, Toledo, Castilla-La Mancha)",
+          9580
+        ],
+        [
+          "Caribe: Cuba, Venezuela, Puerto Rico, República Dominicana, Panamá, Colombia caribeña, México caribeño, Costa del golfo de México",
+          8307
+        ],
+        [
+          "América central",
+          6070
+        ],
+        [
+          "Chileno: Chile, Cuyo",
+          4270
+        ],
+        [
+          "España: Islas Canarias",
+          2130
+        ],
+        [
+          "Ciudad de México",
+          209
+        ],
+        [
+          "España: Centro-Sur peninsular (Madrid, Toledo, Castilla-La Mancha),España: Sur peninsular (Andalucia, Extremadura, Murcia)",
+          90
+        ],
+        [
+          "Caribe: Cuba, Venezuela, Puerto Rico, República Dominicana, Panamá, Colombia caribeña, México caribeño, Costa del golfo de México,colombia",
+          80
+        ],
+        [
+          "Chileno: Chile, Cuyo,neutral",
+          79
+        ],
+        [
+          "Andino-Pacífico: Colombia, Perú, Ecuador, oeste de Bolivia y Venezuela andina,Rioplatense: Argentina, Uruguay, este de Bolivia, Paraguay",
+          75
+        ],
+        [
+          "España: Cataluña,Cataluña",
+          48
+        ],
+        [
+          "Español de Filipinas",
+          47
+        ],
+        [
+          "Andino-Pacífico: Colombia, Perú, Ecuador, oeste de Bolivia y Venezuela andina,Acento costeño de Lima Perú",
+          45
+        ],
+        [
+          "acento de catalanohablante nativo",
+          35
+        ],
+        [
+          "México,Andino-Pacífico: Colombia, Perú, Ecuador, oeste de Bolivia y Venezuela andina",
+          25
+        ],
+        [
+          "España: Comunidad Valenciana",
+          23
+        ],
+        [
+          "España: Galicia",
+          18
+        ],
+        [
+          "América central,Caribe: Cuba, Venezuela, Puerto Rico, República Dominicana, Panamá, Colombia caribeña, México caribeño, Costa del golfo de México",
+          17
+        ],
+        [
+          "México centro,CDMX, México",
+          17
+        ],
+        [
+          "Caribe: Cuba, Venezuela, Puerto Rico, República Dominicana, Panamá, Colombia caribeña, México caribeño, Costa del golfo de México,rare",
+          16
+        ]
+      ],
+      "top_accents_by_unique_speakers": []
+    },
+    "test": {
+      "rows_scanned": 15893,
+      "speaker_level": {
+        "total_speakers": 0
+      },
+      "top_accents_by_utterance": [
+        [
+          "México",
+          693
+        ],
+        [
+          "Andino-Pacífico: Colombia, Perú, Ecuador, oeste de Bolivia y Venezuela andina",
+          474
+        ],
+        [
+          "Caribe: Cuba, Venezuela, Puerto Rico, República Dominicana, Panamá, Colombia caribeña, México caribeño, Costa del golfo de México",
+          324
+        ],
+        [
+          "España: Norte peninsular (Asturias, Castilla y León, Cantabria, País Vasco, Navarra, Aragón, La Rioja, Guadalajara, Cuenca)",
+          323
+        ],
+        [
+          "Rioplatense: Argentina, Uruguay, este de Bolivia, Paraguay",
+          255
+        ],
+        [
+          "América central",
+          206
+        ],
+        [
+          "España: Centro-Sur peninsular (Madrid, Toledo, Castilla-La Mancha)",
+          198
+        ],
+        [
+          "Chileno: Chile, Cuyo",
+          156
+        ],
+        [
+          "España: Islas Canarias",
+          144
+        ],
+        [
+          "España: Sur peninsular (Andalucia, Extremadura, Murcia)",
+          82
+        ],
+        [
+          "México,Andino-Pacífico: Colombia, Perú, Ecuador, oeste de Bolivia y Venezuela andina",
+          5
+        ],
+        [
+          "España: Norte peninsular (Asturias, Castilla y León, Cantabria, País Vasco, Navarra, Aragón, La Rioja, Guadalajara, Cuenca),Cataluña",
+          5
+        ],
+        [
+          "España: Norte peninsular (Asturias, Castilla y León, Cantabria, País Vasco, Navarra, Aragón, La Rioja, Guadalajara, Cuenca),España: Centro-Sur peninsular (Madrid, Toledo, Castilla-La Mancha)",
+          4
+        ],
+        [
+          "España: Norte peninsular (Asturias, Castilla y León, Cantabria, País Vasco, Navarra, Aragón, La Rioja, Guadalajara, Cuenca),Caribe: Cuba, Venezuela, Puerto Rico, República Dominicana, Panamá, Colombia caribeña, México caribeño, Costa del golfo de México",
+          4
+        ],
+        [
+          "España: Noroeste Peninsular,Barcelona",
+          4
+        ],
+        [
+          "Argentina: Córdoba",
+          4
+        ],
+        [
+          "Guatemala",
+          4
+        ],
+        [
+          "Colombian Accent",
+          4
+        ],
+        [
+          "Bogotá,colombia",
+          4
+        ],
+        [
+          "Venezuelan accent from Caracas",
+          4
+        ],
+        [
+          "España: Islas Canarias,Caribe: Cuba, Venezuela, Puerto Rico, República Dominicana, Panamá, Colombia caribeña, México caribeño, Costa del golfo de México",
+          4
+        ],
+        [
+          "España: Norte peninsular (Asturias, Castilla y León, Cantabria, País Vasco, Navarra, Aragón, La Rioja, Guadalajara, Cuenca),España: Islas Canarias",
+          4
+        ],
+        [
+          "España: Catalunya",
+          3
+        ],
+        [
+          "Cataluña",
+          3
+        ],
+        [
+          "Cdmx",
+          3
+        ]
+      ],
+      "top_accents_by_unique_speakers": []
+    }
+  },
+  "overall": {
+    "speaker_level": {
+      "total_speakers": 0
+    },
+    "top_accents_by_utterance": [
+      [
+        "México",
+        133246
+      ],
+      [
+        "España: Sur peninsular (Andalucia, Extremadura, Murcia)",
+        40505
+      ],
+      [
+        "España: Norte peninsular (Asturias, Castilla y León, Cantabria, País Vasco, Navarra, Aragón, La Rioja, Guadalajara, Cuenca)",
+        31930
+      ],
+      [
+        "Andino-Pacífico: Colombia, Perú, Ecuador, oeste de Bolivia y Venezuela andina",
+        14103
+      ],
+      [
+        "Rioplatense: Argentina, Uruguay, este de Bolivia, Paraguay",
+        11297
+      ],
+      [
+        "España: Centro-Sur peninsular (Madrid, Toledo, Castilla-La Mancha)",
+        9778
+      ],
+      [
+        "Caribe: Cuba, Venezuela, Puerto Rico, República Dominicana, Panamá, Colombia caribeña, México caribeño, Costa del golfo de México",
+        8631
+      ],
+      [
+        "América central",
+        6276
+      ],
+      [
+        "Chileno: Chile, Cuyo",
+        4426
+      ],
+      [
+        "España: Islas Canarias",
+        2274
+      ],
+      [
+        "Ciudad de México",
+        209
+      ],
+      [
+        "España: Centro-Sur peninsular (Madrid, Toledo, Castilla-La Mancha),España: Sur peninsular (Andalucia, Extremadura, Murcia)",
+        90
+      ],
+      [
+        "Caribe: Cuba, Venezuela, Puerto Rico, República Dominicana, Panamá, Colombia caribeña, México caribeño, Costa del golfo de México,colombia",
+        80
+      ],
+      [
+        "Chileno: Chile, Cuyo,neutral",
+        79
+      ],
+      [
+        "Andino-Pacífico: Colombia, Perú, Ecuador, oeste de Bolivia y Venezuela andina,Rioplatense: Argentina, Uruguay, este de Bolivia, Paraguay",
+        75
+      ],
+      [
+        "España: Cataluña,Cataluña",
+        48
+      ],
+      [
+        "Español de Filipinas",
+        47
+      ],
+      [
+        "Andino-Pacífico: Colombia, Perú, Ecuador, oeste de Bolivia y Venezuela andina,Acento costeño de Lima Perú",
+        45
+      ],
+      [
+        "acento de catalanohablante nativo",
+        35
+      ],
+      [
+        "México,Andino-Pacífico: Colombia, Perú, Ecuador, oeste de Bolivia y Venezuela andina",
+        30
+      ],
+      [
+        "España: Comunidad Valenciana",
+        23
+      ],
+      [
+        "España: Galicia",
+        20
+      ],
+      [
+        "América central,Caribe: Cuba, Venezuela, Puerto Rico, República Dominicana, Panamá, Colombia caribeña, México caribeño, Costa del golfo de México",
+        17
+      ],
+      [
+        "México centro,CDMX, México",
+        17
+      ],
+      [
+        "Caribe: Cuba, Venezuela, Puerto Rico, República Dominicana, Panamá, Colombia caribeña, México caribeño, Costa del golfo de México,rare",
+        16
+      ]
+    ],
+    "top_accents_by_unique_speakers": []
+  }
+}
