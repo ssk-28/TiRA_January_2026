@@ -1,31 +1,3 @@
-#!/usr/bin/env python3
-# tarp_hyperlora_fl_fleurs.py
-#
-# TARP: Tail Aligned Routing for PEFT (HyperLoRA) on ML-SUPERB FLEURS.
-#
-# Key idea:
-# - Keep backbone frozen and communicate only a small PEFT state (HyperLoRA).
-# - Maintain two PEFT channels inside the hypernetwork:
-#     1) shared head: intended to improve broad multilingual performance
-#     2) tail head: intended to capture tail client needs when their updates conflict
-# - Clients use either the shared head or the tail head (server instructs via config).
-# - Server aggregates with routing:
-#     * Non-tail clients contribute to shared head
-#     * Tail clients contribute to tail head by default
-#     * If a tail update aligns with the shared update direction (cosine >= threshold),
-#       merge it into the shared head; otherwise keep it isolated in tail head
-#
-# Adds:
-# - Strict round-level CSV logging (consistent schema, auto-restart on header mismatch)
-# - Per-language (per-client) logging CSV (one row per language per round)
-# - CTC safety: drop rows where label_len > input_len
-# - Skip non-finite losses
-# - Optional fallback: if a client does 0 steps and max_audio_s > 0, retry once with max_audio_s=0.0
-#
-# Example:
-#   python tarp_hyperlora_fl_fleurs.py --num_clients 20 --clients_per_round 6 --ft_frac 0.30
-#   python tarp_hyperlora_fl_fleurs.py --num_clients 30 --clients_per_round 10 --route_tail_frac 0.20 --route_cos_thr 0.0
-
 from __future__ import annotations
 
 import os
