@@ -315,7 +315,7 @@ def main():
                 other += int(c)
         df.at[idx, "script__OTHER"] += float(other)
 
-    # Sort by utterances high to low (your requested ranking)
+    # Sort by utterances high to low 
     df = df.sort_values(["utts", "train_minutes"], ascending=[False, False]).reset_index(drop=True)
 
     # Save tables
