@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
-# hypernetwork_fl_fleurs.py
 #
-# HyperLoRA federated fine-tuning on local ML_SUPERB FLEURS.
 # Uses splits.py to build and validate per-language manifests.
 #
 # Updates in this version:
@@ -15,9 +13,7 @@
 #    Each sweep run writes a separate CSV with suffix _ftXX.
 #
 # Example:
-#   python hypernetwork_fl_fleurs.py --num_clients 8  --clients_per_round 4 --ft_frac 0.30
-#   python hypernetwork_fl_fleurs.py --num_clients 30 --clients_per_round 10 --ft_frac 0.30
-#   python hypernetwork_fl_fleurs.py --num_clients 30 --clients_per_round 10 --ft_fracs 0.10,0.20,0.30
+#   python <script_name>  --num_clients 30 --clients_per_round 10 --ft_fracs 0.10,0.20,0.30
 #
 import os
 import re
@@ -925,7 +921,6 @@ class HyperFedAvg(FedAvg):
             "round_download_bytes": float(round_download_bytes),
         }
 
-        # Keep your existing aggregation logic (including lang_emb merge)
         if not results:
             print(f"[warn] Round {server_round}: no fit results, keeping previous parameters")
             return (self._last_parameters, {}) if self._last_parameters is not None else None
