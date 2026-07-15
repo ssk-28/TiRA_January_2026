@@ -15,7 +15,6 @@
 #     * If a tail client's update aligns with the shared update direction (cosine >= threshold),
 #       merge it into the shared head (so it helps everyone); otherwise keep it isolated in tail head.
 #
-# This script keeps the same budgets as your current setup:
 # - fixed clients_per_round
 # - fixed local_steps / hour caps / max_audio_s
 # - same logging of mean and tail metrics
