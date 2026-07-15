@@ -15,14 +15,8 @@
 #     * If a tail client's update aligns with the shared update direction (cosine >= threshold),
 #       merge it into the shared head (so it helps everyone); otherwise keep it isolated in tail head.
 #
-# - fixed clients_per_round
-# - fixed local_steps / hour caps / max_audio_s
-# - same logging of mean and tail metrics
-#
-# Example:
-#   python tarp_hyperlora_fl_fleurs.py --num_clients 20 --clients_per_round 6 --ft_frac 0.30
-#   python tarp_hyperlora_fl_fleurs.py --num_clients 30 --clients_per_round 10 --route_tail_frac 0.20 --route_cos_thr 0.0
-#
+
+
 import os
 import re
 import csv
